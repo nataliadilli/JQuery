@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./vendor/owl/css/owl.css" />
+    <link rel="stylesheet" href="./vendor/fontawesome/fontawesome.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>jQuery</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="assets/imagens novas/download.png" alt=""
+        /></a>
+
+        <div class="master-container">
+          <div class="burger-menu">
+            <div class="bar">
+              <span class="bar-1"> </span>
+              <span class="bar-2"> </span>
+              <span class="bar-3"> </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Produtos</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Contato</a></li>
+
+        </div>
+
+        <!-- <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        > -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="caption">
+              <h2>Bem-vindos a Livraria</h2>
+              <div class="line-dec"></div>
+              <p>Acompanhe as promoções e os produtos nas sessões abaixo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="featured" class="featured-items">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <div class="line-dec"></div>
+              <div class="container-produtos">
+                <h1>Produtos</h1>
+                <div class="container-input">
+                  <input type="text" class="pesquisa" id="pesquisa" />
+                  <input type="button" value="Pesquisar" id="botao-pesquisa" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+              <div class="featured-item">
+                <img src="assets/imagens novas/livro 1.jpg" alt="Item 1" />
+                <h4>É Assim que Acaba: 1</h4>
+                <h6>R$ 35,00</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+              <div class="featured-item">
+                <img src="assets/imagens novas/livro 2.jpg" alt="Item 2" />
+                <h4>A Biblioteca da Meia-Noite</h4>
+                <h6>R$ 28,99</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+              <div class="featured-item">
+                <img src="assets/imagens novas/livro 3.jpg" alt="Item 3" />
+                <h4>Hábitos atômicos</h4>
+                <h6>R$ 20,75</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+              <div class="featured-item">
+                <img src="assets/imagens novas/livro 4.jpg" alt="Item 4" />
+                <h4>Atitude mental positiva</h4>
+                <h6>R$ 40,00</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+              <div class="featured-item">
+                <img src="assets/imagens novas/livro 5.jpg" alt="Item 5" />
+                <h4>Todas as suas (im)perfeições</h4>
+                <h6>R$ 29,50</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+              <div class="featured-item">
+                <img src="assets/imagens novas/livro 6.jpg" alt="Item 6" />
+                <h4>Todo esse tempo</h4>
+                <h6>R$ 30,75</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12"></div>
+          <div class="col-md-12">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Politica de privacidade</a></li>
+                <li><a href="#">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright-text">
+              <p>Livraria &copy; Todos os direitos reservados</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./vendor/owl/js/owl.js"></script>
+    <script src="./js/custom.js"></script>
+  </body>
+</html>
